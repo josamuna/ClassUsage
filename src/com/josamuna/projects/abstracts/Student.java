@@ -17,15 +17,31 @@ public class Student extends Person {
 		this.roolNumber = "JJS5441254";
 	}
 
+	/**
+	 * Overloaded constructor.
+	 * @param id
+	 * @param firstName
+	 * @param lastName
+	 * @param sex
+	 * @param roolNumber
+	 */
 	public Student(int id, String firstName, String lastName, String sex, String roolNumber) {
 		super(id, firstName, lastName, sex);
 		this.roolNumber = roolNumber;
 	}
 
+	/**
+	 * roolNumber Getter.
+	 * @return
+	 */
 	public String getRoolNumber() {
 		return roolNumber;
 	}
 
+	/**
+	 * roolNumber Setter.
+	 * @param roolNumber
+	 */
 	public void setRoolNumber(String roolNumber) {
 		this.roolNumber = roolNumber;
 	}
