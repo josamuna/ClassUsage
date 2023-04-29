@@ -1,5 +1,10 @@
 package com.josamuna.projects.interfaces;
 
+/**
+ * Class Entry point
+ * @author josue
+ *
+ */
 public class TestInterfacePerson {
 
 	public TestInterfacePerson() {
